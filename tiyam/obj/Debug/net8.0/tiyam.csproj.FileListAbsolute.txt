@@ -12,3 +12,4 @@ C:\Users\Aram\RiderProjects\tiyam\tiyam\obj\Debug\net8.0\refint\tiyam.dll
 C:\Users\Aram\RiderProjects\tiyam\tiyam\obj\Debug\net8.0\tiyam.pdb
 C:\Users\Aram\RiderProjects\tiyam\tiyam\obj\Debug\net8.0\tiyam.genruntimeconfig.cache
 C:\Users\Aram\RiderProjects\tiyam\tiyam\obj\Debug\net8.0\ref\tiyam.dll
+C:\Users\Aram\RiderProjects\tiyam\tiyam\obj\Debug\net8.0\tiyam.sourcelink.json

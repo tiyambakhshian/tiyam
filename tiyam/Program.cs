@@ -1,6 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
-using System;
-using System.Collections.Generic;
+
+using tiyam;
 
 var users = new List<User>
 {
@@ -60,40 +60,46 @@ start:
 
                 break;
             case 3:
-                Console.Write("Give Me YourName that you want to change: ");
-                var Yourname = Console.ReadLine();
+                Console.Write("Give Me Your Id that you want to change: ");
+                var yourId = Convert.ToInt16(Console.ReadLine());
+
                 Console.Write("Give Me Your NewName: ");
-                var newname = Console.ReadLine();
-       
-                
-                       foreach (var user in users)
-                       {
-                           if (Yourname == user.Name)
-                           {
-                               user.Name = newname;
-                           }
-                       }
-       
-                break;
-            case 4:
-                Console.Write("Give Me YourName that you want to delete: ");
-                var deletename = Console.ReadLine();
-               /* foreach (var user in users)
+                var newName = Console.ReadLine();
+
+
+                var update = users.FirstOrDefault(user => user.Id == yourId);
+                if (update == null)
                 {
-                    if (deletename == user.Name)
-                    {
-                       var delete= users.ToDictionary(x => x.Id).FirstOrDefault();
-                       users.Remove(delete);
-                    }
-                     }
-*/
-                    
+                    Console.WriteLine("not exist");
+                }
+                else
+                {
+                    update.Name = newName;
+                }
+
 
                 break;
-            
+            case 4:
+                Console.Write("Give Me Your Id that you want to delete: ");
+                var yourIdtodelete = Convert.ToInt16(Console.ReadLine());
+
+                var delete = users.FirstOrDefault(user => user.Id == yourIdtodelete);
+                if (delete == null)
+                {
+                    Console.WriteLine("not exist");
+                }
+                else
+                {
+                    users.Remove(delete);
+                    Console.WriteLine("your name is deleted");
+                }
+
+                break;
+
             case 5:
-                Console.WriteLine("the count:" +users.Count);
-                
+
+                Console.WriteLine("the count:" + users.Count);
+
                 break;
             case 0:
                 Environment.Exit(0);
@@ -108,9 +114,3 @@ start:
 Console.WriteLine("Please press enter fot return to main manu");
 Console.ReadLine();
 goto start;
-
-public class User
-{
-    public int Id { get; set; }
-    public string Name { get; set; }
-}
