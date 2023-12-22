@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("tiyam")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e103e7b8b717ce8f501af8e5d2a77ed8399bd63a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bb5a18e323f338de7324fc5fadfb620f094cedf5")]
 [assembly: System.Reflection.AssemblyProductAttribute("tiyam")]
 [assembly: System.Reflection.AssemblyTitleAttribute("tiyam")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -57,15 +57,45 @@ start:
                     Console.WriteLine($"User Name: {user.Name}");
                     Console.WriteLine("-------------------------");
                 }
+                Console.WriteLine("now you can update or delete your selection");
+                Console.WriteLine("############# Menu #########");
+                Console.WriteLine("1- update");
+                Console.WriteLine("2- delete");
+                Console.WriteLine("3- return to main menu");
+
+                var select = Console.ReadLine();
+
+                if (select != null)
+                {
+                    var selection =int.Parse(select);
+
+                    switch (selection)
+                    {
+                        case 1:
+                        {
+                            goto up;
+                        }
+                        case 2:
+                        {
+                            goto del;
+                        }
+                        case 3:
+                        {
+                            goto start;
+                        }
+                    }
+                }
+
 
                 break;
             case 3:
+                up:
+            {
                 Console.Write("Give Me Your Id that you want to change: ");
                 var yourId = Convert.ToInt16(Console.ReadLine());
 
                 Console.Write("Give Me Your NewName: ");
                 var newName = Console.ReadLine();
-
 
                 var update = users.FirstOrDefault(user => user.Id == yourId);
                 if (update == null)
@@ -76,10 +106,12 @@ start:
                 {
                     update.Name = newName;
                 }
-
-
+            
                 break;
+            }
             case 4:
+                del:
+            {
                 Console.Write("Give Me Your Id that you want to delete: ");
                 var yourIdtodelete = Convert.ToInt16(Console.ReadLine());
 
@@ -93,9 +125,9 @@ start:
                     users.Remove(delete);
                     Console.WriteLine("your name is deleted");
                 }
-
+            
                 break;
-
+            }
             case 5:
 
                 Console.WriteLine("the count:" + users.Count);
