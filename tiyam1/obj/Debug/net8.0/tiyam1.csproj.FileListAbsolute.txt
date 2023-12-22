@@ -1,0 +1,15 @@
+C:\Users\Aram\RiderProjects\tiyam\tiyam1\bin\Debug\net8.0\tiyam1.exe
+C:\Users\Aram\RiderProjects\tiyam\tiyam1\bin\Debug\net8.0\tiyam1.deps.json
+C:\Users\Aram\RiderProjects\tiyam\tiyam1\bin\Debug\net8.0\tiyam1.runtimeconfig.json
+C:\Users\Aram\RiderProjects\tiyam\tiyam1\bin\Debug\net8.0\tiyam1.dll
+C:\Users\Aram\RiderProjects\tiyam\tiyam1\bin\Debug\net8.0\tiyam1.pdb
+C:\Users\Aram\RiderProjects\tiyam\tiyam1\obj\Debug\net8.0\tiyam1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aram\RiderProjects\tiyam\tiyam1\obj\Debug\net8.0\tiyam1.AssemblyInfoInputs.cache
+C:\Users\Aram\RiderProjects\tiyam\tiyam1\obj\Debug\net8.0\tiyam1.AssemblyInfo.cs
+C:\Users\Aram\RiderProjects\tiyam\tiyam1\obj\Debug\net8.0\tiyam1.csproj.CoreCompileInputs.cache
+C:\Users\Aram\RiderProjects\tiyam\tiyam1\obj\Debug\net8.0\tiyam1.sourcelink.json
+C:\Users\Aram\RiderProjects\tiyam\tiyam1\obj\Debug\net8.0\tiyam1.dll
+C:\Users\Aram\RiderProjects\tiyam\tiyam1\obj\Debug\net8.0\refint\tiyam1.dll
+C:\Users\Aram\RiderProjects\tiyam\tiyam1\obj\Debug\net8.0\tiyam1.pdb
+C:\Users\Aram\RiderProjects\tiyam\tiyam1\obj\Debug\net8.0\tiyam1.genruntimeconfig.cache
+C:\Users\Aram\RiderProjects\tiyam\tiyam1\obj\Debug\net8.0\ref\tiyam1.dll

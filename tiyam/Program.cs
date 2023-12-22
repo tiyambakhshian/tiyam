@@ -58,7 +58,7 @@ start:
                     Console.WriteLine("-------------------------");
                 }
                 Console.WriteLine("now you can update or delete your selection");
-                Console.WriteLine("############# Menu #########");
+                Console.WriteLine("------------ Menu ------------");
                 Console.WriteLine("1- update");
                 Console.WriteLine("2- delete");
                 Console.WriteLine("3- return to main menu");
